@@ -1,10 +1,9 @@
-package io.zipcoder;
+package io.zipcoder.Pets;
 
-public class Bird extends Pet{
+public class Bird extends Pet {
 
     public Bird(){
         super();
-        super.setType("bird");
     }
 
     public Bird(String name){

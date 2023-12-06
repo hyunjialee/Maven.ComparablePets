@@ -1,4 +1,4 @@
-package io.zipcoder;
+package io.zipcoder.Pets;
 
 public abstract class Pet implements Comparable<Pet>{
     private String name;
@@ -9,7 +9,7 @@ public abstract class Pet implements Comparable<Pet>{
     }
     public Pet(String name) {
         this.name = name;
-        this.type = "none";
+        this.type = "";
     }
     public abstract String speak();
 
@@ -28,5 +28,6 @@ public abstract class Pet implements Comparable<Pet>{
     public void setType(String type){
         this.type = type;
     }
+
 }
 

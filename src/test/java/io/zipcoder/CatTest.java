@@ -1,5 +1,7 @@
 package io.zipcoder;
 
+import io.zipcoder.Pets.Cat;
+import io.zipcoder.Pets.Pet;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -16,16 +18,6 @@ public class CatTest {
 
     }
 
-    @Test
-    public void testType(){
-
-        Cat cat = new Cat();
-        String expected = "cat";
-        String actual = cat.getType();
-
-        Assert.assertEquals(expected, actual);
-
-    }
     @Test
     public void testPet() {
         Cat cat = new Cat();
